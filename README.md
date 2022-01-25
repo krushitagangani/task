@@ -44,3 +44,8 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+
+## To Check Tasks
+    1. Question 1 answer is in [http://localhost:3000/test1](http://localhost:3000/test1) route
+    2. Question 2 answer is in [http://localhost:3000/test2](http://localhost:3000/test2) route
+    3. Question 3 answer is in src/pages/test3/refector.txt file
