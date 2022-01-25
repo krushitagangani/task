@@ -1,0 +1,52 @@
+//Fonts
+@import "../../../node_modules/bootstrap/scss/bootstrap.scss";
+@import "custom/fonts/fonts";
+@import "../../../node_modules/react-datepicker/dist/react-datepicker.css";
+
+body, html, #root {
+    height: 100%;
+}
+
+.input-icon {
+    .form-control-icon {
+      background: transparent;
+      border-left: 0 !important;
+      cursor: pointer;
+    }
+  
+    .input-icon-field {
+      border-right: 0 !important;
+      // &:focus{
+      //   border: 1px black !important;
+      // }
+    }
+  }
+
+.react-datepicker__input-container {
+    &::before {
+        color: inherit;
+        content: url('../images/calendar-2-line.svg');
+        display: inline-block;
+        width: 40px;
+        height: 100%;
+        position: absolute;
+        text-align: center;
+        top: 20%;
+        left: 0;
+    }
+    input {
+        padding-left: 38px;
+    }
+}
+
+.form-container {
+    background-color: $primary !important;
+    color: lighten($primary, 50%)!important;
+    .form-control {
+        background-color: $primary !important;
+        color: lighten($primary, 50%);
+        &::placeholder {
+            color: lighten($primary, 20%) !important;;
+        }
+    }
+}
